@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>filtros rápidos</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">stock</a></li>
+                    <li><a href="#">crear producto</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Contenido principal -->
+        <main>
+            <header>
+                <h1>inventario de productos quimicos</h1>
+                <div class="user-info">
+                    <div class="right">camilormo</div>
+                    <img src="logo.png" class="right">
+                    <!-- alt="User Avatar" -->
+                </div>
+            </header>
+
+            <section class="main-content">
+                <div class="controls">
+                    <button class="btn">Órdenes de Compra</button>
+                    <div class="search-bar">
+                        <label for="search">Name:</label>
+                        <select id="search">
+                            <option value="producto">producto</option>
+                        </select>
+                        <input type="text" placeholder="Buscar producto...">
+                        <button class="btn">buscar</button>
+                    </div>
+                    <button class="btn clearing">Clearing conditions</button>
+                </div>
+
+                <!-- Tabla de productos -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>nombre producto</th>
+                            <th>numero cas</th>
+                            <th>cantidad disponible</th>
+                            <th>unidad de medida</th>
+                            <th>stock critico</th>
+                            <th>fecha de vencimiento</th>
+                            <th>estado del stock</th>
+                            <th>acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ácido Sulfúrico (H2SO4)</td>
+                            <td>7664-93-9</td>
+                            <td>500 L</td>
+                            <td>Litros</td>
+                            <td>50 L</td>
+                            <td>15/12/2025</td>
+                            <td><span class="status to-examine">fecha de vencimiento</span></td>
+                            <td><button class="btn to-examine">fecha de vencimiento</button></td>
+                        </tr>
+                        <tr>
+                            <td>Hidróxido de Sodio (NaOH)</td>
+                            <td>1310-73-2</td>
+                            <td>80 kg</td>
+                            <td>kg</td>
+                            <td>100 kg</td>
+                            <td>01/03/2026</td>
+                            <td><span class="status reviewed">Suficiente</span></td>
+                            <td><button class="btn reviewed">Suficiente</button></td>
+                        </tr>
+                        <tr>
+                            <td>Nitrato de Amonio (NH4NO3)</td>
+                            <td>6484-52-2</td>
+                            <td>250 kg</td>
+                            <td>kg</td>
+                            <td>150kg</td>
+                            <td>20/06/2024</td>
+                            <td><span class="status to-examine">Cerca del Mínimo</span></td>
+                            <td><button class="btn to-examine">Cerca del Mínimo</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
