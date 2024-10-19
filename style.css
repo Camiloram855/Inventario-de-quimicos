@@ -14,7 +14,9 @@ table th, table td {
 }
 
 table th {
-    background-color: #1b5ace;
+    background-color: #ff4d00
+
+    ;
     color: white;
     text-transform: uppercase;
 }
@@ -41,5 +43,111 @@ header {
 
 h1 {
     width: 90%; 
-    float: left;
+    float: 
+    left;
 }
+.tabla {
+    width: 80%;
+    
+    
+}
+.sidebar {
+    background-color: #ffffff;
+    width: 20%;
+    height: 500px;
+    float: left;
+
+
+}
+.caja-grande{
+    width: 100%;
+
+}
+
+.caja-80 {
+    width: 80%;
+    float: right;
+}
+
+html {
+    background-color: #f0f0f0;
+    font-family: Roboto;
+}
+
+.stock {
+    width: 75%;
+    background-color: #ffece4;
+    border-left:5px solid #ff4d00;
+
+    
+}
+
+ul {
+
+    padding: 0;
+    width: inherit;
+    list-style: none;    
+}
+
+a {
+    
+    text-decoration: none;
+    color: #84858f;
+
+}
+
+li {
+    padding: 30px;
+}
+
+.seleccionado {
+    color: #ff4d00 !important;
+    font-weight: bold;
+}
+
+span {
+    text-decoration: none;
+    color: #84858f;
+    padding: 30px;
+    
+}
+
+.btn {
+    background-color: #ff4d00;
+    width: 20%;
+    padding: 10px;
+    color: #ffffff;
+    cursor:pointer;
+    border-radius: 6px;
+    border: none;
+    margin: 12px;
+}
+.search-bar {
+    background-color: #ffffff ;
+    padding: 24px;
+}
+
+select {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+.main-content {
+    margin: 10px;
+}
+
+.btnd {
+    background-color: #ff4d00;
+    width: 20%;
+    padding: 10px;
+    color: #ffffff;
+    cursor:pointer;
+    border-radius: 6px;
+    border: none;
+}
+
+
+
